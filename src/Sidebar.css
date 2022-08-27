@@ -1,0 +1,10 @@
+.sidebar__ask{
+    background-color: var(--quora-color) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    text-transform: inherit !important;
+    height: 40px;
+}

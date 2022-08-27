@@ -1,0 +1,29 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+/*MuiSvgIcon-root is pre defined class of materialUi*/
+.sidebarOption > .MuiSvgIcon-root{
+    padding: 20px;
+}
+
+.sidebarOption > h2{
+    font-size: 25px;
+    font-weight:100;
+    margin-right: 20px;
+}
+
+
+.sidebarOption:hover{
+
+    background-color: #e7e7e8;
+    border-radius:30px;
+    /* color:var(--quora-color);
+    transition: 100 ms ease-out; */
+}
+
+.sidebarOption--active {
+    color: var(--quora-color);
+}
