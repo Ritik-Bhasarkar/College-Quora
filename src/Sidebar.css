@@ -1,3 +1,18 @@
+.sidebar{
+    border-right: 1px solid var(--quora-background);
+    flex: 0.2;
+    min-width: 250px;
+    padding-top: 12px;
+    padding-left: 86px;
+    padding-right: 40px;
+}
+
+.Sidebar_quoraIcon{
+    color: var(--quora-color);
+    font-size: 3em !important;
+    margin-left: 13px;
+}
+
 .sidebar__ask{
     background-color: var(--quora-color) !important;
     border: none !important;
@@ -6,5 +21,7 @@
     font-size: 25px !important;
     font-weight: 500 !important;
     text-transform: inherit !important;
-    height: 40px;
+    height: 38px;
+    margin-top: 30px !important;
+    max-width: 220px;
 }

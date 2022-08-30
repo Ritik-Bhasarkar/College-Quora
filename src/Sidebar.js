@@ -15,7 +15,9 @@ import Button from "@mui/material/Button";
 function Sidebar() {
   return (
     <div className="sidebar ">
-      <FormatQuoteIcon />
+      <FormatQuoteIcon className="Sidebar_quoraIcon">
+        {/* <h2>College-Quora</h2> */}
+      </FormatQuoteIcon>
       <SidebarOption active Icon={HomeRoundedIcon} text="Home" />
       <SidebarOption Icon={ExploreOutlinedIcon} text="Explore" />
       <SidebarOption Icon={NotificationsNoneOutlinedIcon} text="Notification" />
@@ -26,7 +28,7 @@ function Sidebar() {
       <SidebarOption Icon={MoreHorizRoundedIcon} text="More" />
 
       <Button varinat="outlined" className="sidebar__ask" fullWidth>
-        Ask
+        <h4>Question</h4>
       </Button>
     </div>
   );

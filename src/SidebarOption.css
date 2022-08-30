@@ -18,7 +18,7 @@
 
 .sidebarOption:hover{
 
-    background-color: #e7e7e8;
+    background-color: var(--quora-background);
     border-radius:30px;
     /* color:var(--quora-color);
     transition: 100 ms ease-out; */
