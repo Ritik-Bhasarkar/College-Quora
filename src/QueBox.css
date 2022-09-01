@@ -1,0 +1,45 @@
+.queBox{
+    padding-bottom: 20px;
+    border: 1px solid var(--quora-background);
+    padding-left: 10px;
+}
+
+.queBox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.queBox__input{
+    display: flex;
+    padding-top: 20px;
+}
+
+.queBox__input > input{
+    flex:1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+input:focus,textarea:focus,select:focus{
+    outline: none;
+}
+
+.queBox_postButton{
+    background-color: var(--quora-color) !important;
+    border: none !important;
+    border-radius: 30px !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px !important;
+    text-transform: inherit !important;
+    height: 38px;
+    margin-top: 30px !important;
+    max-width: 100px !important;
+    margin-left: auto !important;
+    margin-right: 10px !important;
+}
+
+.queBox_postButton >h3{
+    font-weight: 100 !important;
+    padding: 40px;
+}
