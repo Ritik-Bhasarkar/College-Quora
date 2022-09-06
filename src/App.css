@@ -5,6 +5,7 @@
 body{
     --quora-background:#e7e7e8;
     --quora-color:#b92b27;
+    --quora-username:#667581;
 }
 .app{
     display:flex;

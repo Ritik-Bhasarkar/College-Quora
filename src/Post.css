@@ -1,0 +1,43 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid var(--quora-background);
+    padding: 20px 16px;
+}
+
+.post_body{
+    flex: 1;
+}
+
+.post_body > img{
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.post_headerUsername{
+    padding-left: 8px;
+    font-weight: normal;
+    color: var(--quora-username);
+}
+
+.post_headertext > h3{
+    font-size: 18px;
+    margin-bottom: 5px;  
+}
+
+.post_headerDescription{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.post_footer {
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.post_avatar{
+    padding-right:15px;
+}
+
