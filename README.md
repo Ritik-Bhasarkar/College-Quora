@@ -15,7 +15,6 @@ To get started, you will need to create an account with your college email addre
 ## Badges
 
 [![Open Source Project](https://img.shields.io/badge/Open%20Source-Yes-green)](https://www.example.com)
-[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Credits
 
